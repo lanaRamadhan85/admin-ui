@@ -3,39 +3,15 @@ import "./App.css";
 function App() {
   return (
     <>
-      <div className="bg-gray-100 min-h-screen p-6">
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow text-5xl flex justify-center items-center hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card 1
-          </div>
-          {/* card end */}
-
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow text-5xl flex justify-center items-center hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card 2
-          </div>
-          {/* card end */}
-
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow text-5xl flex justify-center items-center hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card 3
-          </div>
-          {/* card end */}
-
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow text-5xl flex justify-center items-center hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card 4
-          </div>
-          {/* card end */}
-
-          {/* card begin */}
-          <div className="bg-white p-6 min-h-40 rounded-lg shadow text-5xl flex justify-center items-center hover:shadow-lg transition-shadow hover:border hover:bg-gray-200 hover:scale-105 duration-300">
-            card 5
-          </div>
-          {/* card end */}
-        </div>
-      </div>
+      <h1 className="text-3xl font-bold">Ini font default</h1>
+      <h1 className="text-3xl font-poppins">Ini font default</h1>
+      <p>
+        Ini font default juga. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Illum perferendis dolores provident debitis,
+        necessitatibus ullam, quibusdam dolore cumque velit, molestias
+        recusandae exercitationem pariatur. Quas ullam aliquid ea. Repellat,
+        exercitationem similique!
+      </p>
     </>
   );
 }
